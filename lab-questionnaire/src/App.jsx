@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import Survey from './pages/Survey';
+import Questionnaire from './pages/Questionnaire';
 import ThankYou from './pages/ThankYou';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -13,7 +13,7 @@ function App() {
       <div className="container mx-auto py-8">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/survey" element={<Survey />} />
+          <Route path="/questionnaire" element={<Questionnaire />} />
           <Route path="/thank-you" element={<ThankYou />} />
         </Routes>
       </div>
